@@ -1,4 +1,4 @@
-# @renderlayer/rollup-shader-chunks
+# rollup-shader-chunks
 
 Rollup plugin for optimising inline GLSL shaders.
 
@@ -9,7 +9,7 @@ Rollup plugin for optimising inline GLSL shaders.
 ## Install
 
 ```sh
-npm i @renderlayer/rollup-shader-chunks --save-dev
+npm i rollup-shader-chunks --save-dev
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm i @renderlayer/rollup-shader-chunks --save-dev
 ```js
 // rollup.config.js
 
-import { shaderChunks } from '@renderlayer/rollup-shader-chunks';
+import { shaderChunks } from 'rollup-shader-chunks';
 
 export default {
   input: 'src/index.js',
@@ -70,9 +70,9 @@ shaderChunks({
 
 This project is released under the MIT [License](LICENSE).
 
-[ci-badge]: https://github.com/renderlayer/rollup-shader-chunks/actions/workflows/ci.yml/badge.svg
-[ci-url]: https://github.com/renderlayer/rollup-shader-chunks/actions
-[npm-badge]: https://img.shields.io/npm/v/@renderlayer/rollup-shader-chunks
-[npm-url]: https://www.npmjs.com/package/@renderlayer/rollup-shader-chunks
-[license-badge]: https://img.shields.io/npm/l/@renderlayer/rollup-shader-chunks.svg
+[ci-badge]: https://github.com/epreston/rollup-shader-chunks/actions/workflows/ci.yml/badge.svg
+[ci-url]: https://github.com/epreston/rollup-shader-chunks/actions
+[npm-badge]: https://img.shields.io/npm/v/rollup-shader-chunks
+[npm-url]: https://www.npmjs.com/package/rollup-shader-chunks
+[license-badge]: https://img.shields.io/npm/l/rollup-shader-chunks.svg
 [license-url]: LICENSE
