@@ -41,6 +41,7 @@ export function shaderChunks({
       });
 
       return {
+        name: 'rollup-shader-chunks',
         code: source,
         map: null
       };
