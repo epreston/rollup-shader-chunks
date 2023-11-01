@@ -16,7 +16,7 @@
   },
   "keywords": [
     "renderlayer",
-    "rollup",
+    "rollup-plugin",
     "glsl",
     "plugin"
   ],
