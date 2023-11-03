@@ -3,7 +3,7 @@
   "name": "rollup-shader-chunks",
   "version": "1.1.0",
   "description": "Rollup plugin for optimising inline GLSL",
-  "main" : "./src/rollup-shader-chunks.js",
+  "main": "./src/rollup-shader-chunks.js",
   "module": "./src/rollup-shader-chunks.js",
   "exports": "./src/rollup-shader-chunks.js",
   "files": [
@@ -33,6 +33,7 @@
     "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\""
   },
   "devDependencies": {
+    "@epreston/tsconfig": "^1.0.1",
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "prettier": "^3.0.3",
