@@ -37,7 +37,7 @@
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "prettier": "^3.0.3",
-    "rollup": "^4.2.0"
+    "rollup": "^4.3.0"
   },
   "dependencies": {
     "@rollup/pluginutils": "^5.0.5"
