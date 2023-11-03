@@ -26,6 +26,7 @@ export function shaderChunks({
   const filter = createFilter(include, exclude);
 
   return {
+    name: 'rollup-shader-chunks',
     async transform(source, shader) {
       if (!enabled || !filter(shader)) return;
 
@@ -41,7 +42,6 @@ export function shaderChunks({
       });
 
       return {
-        name: 'rollup-shader-chunks',
         code: source,
         map: null
       };
