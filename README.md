@@ -6,6 +6,19 @@ Rollup plugin for optimising inline GLSL shaders.
 [![License][license-badge]][license-url]
 [![CI][ci-badge]][ci-url]
 
+## Example
+
+This plugin processes template literals marked with a syntax highlighting and embedded script editing hint.
+
+```glsl
+// shaders.js
+export const vertex = /* glsl */ `
+  void main() {
+      gl_Position = mvp * vec4( position, 1.0 );
+  }
+`;
+```
+
 ## Install
 
 ```sh
@@ -42,7 +55,7 @@ shaderChunks({
 })
 ```
 
-## Scripts
+## NPM
 
 | Action        | Command                 | Description                        |
 | ------------- | ----------------------- | ---------------------------------- |
