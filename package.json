@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "rollup-shader-chunks",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Rollup plugin for optimising inline GLSL",
   "main": "./src/rollup-shader-chunks.js",
   "module": "./src/rollup-shader-chunks.js",
@@ -26,7 +26,6 @@
     "url": "https://github.com/epreston/rollup-shader-chunks/issues"
   },
   "homepage": "https://github.com/epreston/rollup-shader-chunks#readme",
-  "browserslist": "Chrome >= 112, ChromeAndroid >= 112, Edge >= 112, Firefox >= 112, FirefoxAndroid  >= 112,  Safari >= 16.4, iOS >= 16.4, not dead",
   "eslintConfig": {
     "root": true,
     "extends": "@epreston/eslint-config"
@@ -38,12 +37,12 @@
     "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\""
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^1.1.0",
-    "@epreston/prettier-config": "^1.0.0",
+    "@epreston/eslint-config": "^1.1.1",
+    "@epreston/prettier-config": "^2.0.0",
     "@epreston/tsconfig": "^1.0.1",
     "eslint": "^8.53.0",
-    "prettier": "^3.0.3",
-    "rollup": "^4.3.0"
+    "prettier": "^3.1.0",
+    "rollup": "^4.4.1"
   },
   "dependencies": {
     "@rollup/pluginutils": "^5.0.5"
