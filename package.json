@@ -40,15 +40,15 @@
     "@epreston/eslint-config": "^1.1.1",
     "@epreston/prettier-config": "^2.0.0",
     "@epreston/tsconfig": "^1.0.1",
-    "eslint": "^8.53.0",
+    "eslint": "^8.54.0",
     "prettier": "^3.1.0",
-    "rollup": "^4.4.1"
+    "rollup": "^4.6.0"
   },
   "dependencies": {
     "@rollup/pluginutils": "^5.0.5"
   },
   "peerDependencies": {
-    "rollup": "^3.0.0 || ^4.0.0"
+    "rollup": "^3.0.0 || >=4.0.0"
   },
   "engines": {
     "node": "^18.0.0 || >=20.0.0"
