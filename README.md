@@ -36,48 +36,49 @@ export default {
   input: 'src/index.js',
   plugins: [
     //... other plugins, preprocessing
-    shaderChunks(),
+    shaderChunks()
     //... other plugins, terser, etc
-  ],
+  ]
   //...other options
-}
+};
 ```
 
 ## Defaults
 
 ```js
 shaderChunks({
-  include: [            // Glob pattern, or array of glob patterns to include
+  include: [
+    // Glob pattern, or array of glob patterns to include
     '**/*.js'
   ],
-  exclude: undefined,   // Glob pattern, or array of glob patterns to ignore
-  enabled: true         // Enable or disable the processing of files
-})
+  exclude: undefined, // Glob pattern, or array of glob patterns to ignore
+  enabled: true // Enable or disable the processing of files
+});
 ```
 
-## NPM
+## Scripts
 
-| Action        | Command                 | Description                        |
-| ------------- | ----------------------- | ---------------------------------- |
-| lint          | `npm run lint`          | Run static code analysis           |
-| format        | `npm run format`        | Check source file formatting       |
-| format-fix    | `npm run format-fix`    | Format source files                |
+| Action     | Command              | Description                  |
+| ---------- | -------------------- | ---------------------------- |
+| lint       | `npm run lint`       | Run static code analysis     |
+| format     | `npm run format`     | Check source file formatting |
+| format-fix | `npm run format-fix` | Format source files          |
 
 ## Tools
 
-| Tool         | Reference                 |
-| ------------ | ------------------------- |
-| Node.js      | https://nodejs.org/       |
-| rollup.js    | https://rollupjs.org      |
-| ESLint       | https://eslint.org/       |
-| Prettier     | https://prettier.io       |
-| EditorConfig | https://editorconfig.org  |
+| Tool         | Reference                |
+| ------------ | ------------------------ |
+| Node.js      | https://nodejs.org       |
+| rollup.js    | https://rollupjs.org     |
+| ESLint       | https://eslint.org       |
+| Prettier     | https://prettier.io      |
+| EditorConfig | https://editorconfig.org |
 
 ## References
 
-| Website | Reference                          |
-| ------- | ---------------------------------- |
-| WebGL2  | https://www.khronos.org/webgl/     |
+| Website | Reference                      |
+| ------- | ------------------------------ |
+| WebGL2  | https://www.khronos.org/webgl/ |
 
 ## License
 
