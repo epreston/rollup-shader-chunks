@@ -28,7 +28,10 @@
   "homepage": "https://github.com/epreston/rollup-shader-chunks#readme",
   "eslintConfig": {
     "root": true,
-    "extends": "@epreston/eslint-config"
+    "extends": "@epreston/eslint-config",
+    "rules": {
+      "prettier/prettier": "off"
+    }
   },
   "prettier": "@epreston/prettier-config",
   "scripts": {
