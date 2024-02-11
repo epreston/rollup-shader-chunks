@@ -43,9 +43,9 @@
     "@epreston/eslint-config": "^1.1.1",
     "@epreston/prettier-config": "^2.0.0",
     "@epreston/tsconfig": "^1.1.1",
-    "eslint": "^8.55.0",
-    "prettier": "^3.1.0",
-    "rollup": "^4.7.0"
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "rollup": "^4.10.0"
   },
   "dependencies": {
     "@rollup/pluginutils": "^5.1.0"
