@@ -1,5 +1,6 @@
 {
   "type": "module",
+  "sideEffects": false,
   "name": "rollup-shader-chunks",
   "version": "1.4.0",
   "description": "Rollup plugin for optimising inline GLSL",
@@ -9,11 +10,6 @@
   "files": [
     "src"
   ],
-  "sideEffects": false,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/epreston/rollup-shader-chunks.git"
-  },
   "keywords": [
     "renderlayer",
     "rollup-plugin",
@@ -22,6 +18,10 @@
   ],
   "author": "Ed Preston",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epreston/rollup-shader-chunks.git"
+  },
   "bugs": {
     "url": "https://github.com/epreston/rollup-shader-chunks/issues"
   },
