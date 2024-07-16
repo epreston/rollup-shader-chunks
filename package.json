@@ -18,10 +18,7 @@
   ],
   "author": "Ed Preston",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/epreston/rollup-shader-chunks.git"
-  },
+  "repository": "github:epreston/rollup-shader-chunks",
   "bugs": {
     "url": "https://github.com/epreston/rollup-shader-chunks/issues"
   },
