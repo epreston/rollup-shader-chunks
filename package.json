@@ -2,7 +2,7 @@
   "type": "module",
   "sideEffects": false,
   "name": "rollup-shader-chunks",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Rollup plugin for optimising inline GLSL",
   "main": "./src/rollup-shader-chunks.js",
   "module": "./src/rollup-shader-chunks.js",
