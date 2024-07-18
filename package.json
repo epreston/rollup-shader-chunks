@@ -26,9 +26,9 @@
   "homepage": "https://github.com/epreston/rollup-shader-chunks#readme",
   "prettier": "@epreston/prettier-config",
   "scripts": {
-    "lint": "eslint --report-unused-disable-directives .",
-    "format": "prettier --check --cache \"**/*.[tj]s?(x)\"",
-    "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\""
+    "lint": "eslint .",
+    "format": "prettier --check \"**/*.[tj]s\"",
+    "format-fix": "prettier --write \"**/*.[tj]s\""
   },
   "devDependencies": {
     "@epreston/eslint-config": "^2.1.1",
