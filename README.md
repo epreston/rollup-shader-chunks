@@ -32,6 +32,7 @@ npm i rollup-shader-chunks --save-dev
 
 import { shaderChunks } from 'rollup-shader-chunks';
 
+/** @type {import('rollup').RollupOptions} */
 export default {
   input: 'src/index.js',
   plugins: [
