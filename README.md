@@ -58,11 +58,10 @@ shaderChunks({
 
 ## Scripts
 
-| Action     | Command              | Description                  |
-| ---------- | -------------------- | ---------------------------- |
-| lint       | `npm run lint`       | Run static code analysis     |
-| format     | `npm run format`     | Check source file formatting |
-| format-fix | `npm run format-fix` | Format source files          |
+| Action | Command          | Description              |
+| ------ | ---------------- | ------------------------ |
+| lint   | `npm run lint`   | Run static code analysis |
+| format | `npm run format` | Format source files      |
 
 ## Tools
 
