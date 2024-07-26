@@ -4,9 +4,11 @@
   "name": "rollup-shader-chunks",
   "version": "1.4.1",
   "description": "Rollup plugin for optimising inline GLSL",
-  "main": "./src/rollup-shader-chunks.js",
-  "module": "./src/rollup-shader-chunks.js",
-  "exports": "./src/rollup-shader-chunks.js",
+  "author": "Ed Preston",
+  "license": "MIT",
+  "repository": "github:epreston/rollup-shader-chunks",
+  "bugs": "https://github.com/epreston/rollup-shader-chunks/issues",
+  "homepage": "https://github.com/epreston/rollup-shader-chunks#readme",
   "publishConfig": {
     "access": "public"
   },
@@ -19,12 +21,10 @@
     "glsl",
     "plugin"
   ],
-  "author": "Ed Preston",
-  "license": "MIT",
-  "repository": "github:epreston/rollup-shader-chunks",
-  "bugs": "https://github.com/epreston/rollup-shader-chunks/issues",
-  "homepage": "https://github.com/epreston/rollup-shader-chunks#readme",
   "prettier": "@epreston/prettier-config",
+  "main": "./src/rollup-shader-chunks.js",
+  "module": "./src/rollup-shader-chunks.js",
+  "exports": "./src/rollup-shader-chunks.js",
   "packageManager": "npm@10.7.0",
   "engines": {
     "node": "^18.0.0 || ^20.0.0 || >=22.0.0"
