@@ -6,7 +6,10 @@
   "description": "Rollup plugin for optimising inline GLSL",
   "author": "Ed Preston",
   "license": "MIT",
-  "repository": "github:epreston/rollup-shader-chunks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epreston/rollup-shader-chunks.git"
+  },
   "bugs": "https://github.com/epreston/rollup-shader-chunks/issues",
   "homepage": "https://github.com/epreston/rollup-shader-chunks#readme",
   "publishConfig": {
