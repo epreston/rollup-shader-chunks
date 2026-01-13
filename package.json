@@ -2,7 +2,7 @@
   "type": "module",
   "sideEffects": false,
   "name": "rollup-shader-chunks",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "Rollup plugin for optimising inline GLSL",
   "author": "Ed Preston",
   "license": "MIT",
