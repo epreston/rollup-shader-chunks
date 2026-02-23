@@ -22,14 +22,6 @@
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
-  "cSpell.words": [
-    "GLSL",
-    "renderlayer"
-  ],
-  "cSpell.ignoreWords": [
-    "epreston",
-    "nonconstructor",
-    "pluginutils",
-    "vars"
-  ]
+  "cSpell.words": ["GLSL", "renderlayer"],
+  "cSpell.ignoreWords": ["epreston", "nonconstructor", "pluginutils", "vars"]
 }
