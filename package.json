@@ -15,19 +15,18 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "src"
-  ],
   "keywords": [
     "renderlayer",
     "rollup-plugin",
     "glsl",
     "plugin"
   ],
-  "prettier": "@epreston/prettier-config",
-  "main": "./src/rollup-shader-chunks.js",
+  "files": [
+    "src"
+  ],
   "module": "./src/rollup-shader-chunks.js",
   "exports": "./src/rollup-shader-chunks.js",
+  "prettier": "@epreston/prettier-config",
   "packageManager": "npm@11.10.1",
   "engines": {
     "node": "^20.19.0 || ^22.21.0 || >=24.12.0"
