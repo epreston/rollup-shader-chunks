@@ -5,5 +5,5 @@
     /* Emit */
     "outDir": "temp"
   },
-  "include": ["src", "test"]
+  "include": ["src"]
 }
