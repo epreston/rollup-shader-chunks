@@ -14,13 +14,16 @@ updates:
     directory: /
     schedule:
       interval: monthly
+
     groups:
-      npm-development:
+      npm-dev:
         dependency-type: development
         update-types:
           - minor
           - patch
-      npm-production:
+
+      npm-prod:
         dependency-type: production
         update-types:
+          - minor
           - patch
